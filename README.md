@@ -35,3 +35,5 @@ kubectl create secret generic pgpassword --from-literal PGPASSWORD=<Password>
 ```bash
 kubectl apply -f k8s/
 ```
+# Travis CI
+- docker run -it -v $(pwd):/app ruby:2.4 sh
